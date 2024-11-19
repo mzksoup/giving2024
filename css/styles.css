@@ -1,0 +1,219 @@
+body {
+  font-family: "Noto Sans JP", "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック体", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN",
+    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fcfaf5; /* 背景色 */
+  color: #666666;
+}
+
+header {
+  background-color: #d35871; /* メインカラー */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none; /* 初期状態では非表示 */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.main-visual {
+  position: relative;
+  height: 400px; /* 高さを設定 */
+  background-image: url("your-image.jpg"); /* 背景画像を指定 */
+  background-size: cover; /* 画像をカバー */
+  background-position: center; /* 中央に配置 */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒いオーバーレイ */
+  color: white; /* テキストの色を白に設定 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* テキストを中央揃え */
+}
+
+.overlay h2 {
+  font-size: 2.5em; /* キャッチコピーのフォントサイズ */
+  margin: 0 0 10px; /* マージンを設定 */
+}
+
+.overlay p {
+  font-size: 1.2em; /* 説明文のフォントサイズ */
+  margin: 0 0 20px; /* マージンを設定 */
+}
+
+.cta-button {
+  background-color: #d35871; /* ボタンの背景色 */
+  color: white; /* ボタンの文字色 */
+  padding: 10px 20px; /* パディング */
+  border: none; /* ボーダーをなし */
+  border-radius: 5px; /* 角を丸める */
+  text-decoration: none; /* 下線をなし */
+  font-size: 1.1em; /* フォントサイズ */
+  transition: background-color 0.3s; /* ホバー時のトランジション */
+}
+
+.cta-button:hover {
+  background-color: #b24d61; /* ホバー時の背景色 */
+}
+
+.new-items h2,
+.product-filter h2 {
+  text-align: center; /* h2を中央揃え */
+  margin: 20px 0; /* 上下にマージンを追加 */
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap; /* 改行を許可 */
+  justify-content: center; /* 中央揃え */
+  margin: 20px 0; /* 上下にマージンを追加 */
+}
+
+.filters select,
+.filters button {
+  margin: 5px; /* 各フィルターの間にマージンを追加 */
+  flex: 1 1 150px; /* 最小幅150px、余裕があれば拡張 */
+  max-width: 200px; /* 最大幅を設定 */
+}
+
+.item-list,
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* 改行して表示 */
+  justify-content: center; /* 中央揃え */
+  margin-bottom: 20px; /* 下にマージンを追加 */
+}
+
+.item-card,
+.product-card {
+  background-color: white; /* カードの背景色 */
+  border: 1px solid #ddd;
+  border-radius: 10px; /* 角を丸める */
+  margin: 10px; /* カード間のマージン */
+  padding: 20px;
+  flex: 1 1 200px; /* 幅を200pxに設定し、余裕があれば拡張 */
+  max-width: 250px; /* 最大幅を設定 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center; /* テキストを中央揃え */
+}
+
+.item-card:hover,
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.item-card img,
+.product-card img {
+  max-width: 100%; /* カードの幅に合わせて画像を最大化 */
+  height: auto; /* 高さは自動調整 */
+  border-radius: 10px; /* 角を丸める */
+}
+
+.item-card h2,
+.product-card h2 {
+  font-size: 1.2em; /* 商品名のフォントサイズ */
+  margin: 10px 0;
+}
+
+.item-card .tags,
+.product-card .tags {
+  margin: 10px 0;
+  font-size: 0.9em; /* タグのフォントサイズ */
+  color: #666666; /* タグの文字色 */
+}
+
+.item-card .tags span,
+.product-card .tags span {
+  display: inline-block;
+  margin: 0 5px; /* タグ間のマージン */
+  padding: 5px 10px;
+  background-color: #f0f0f0; /* タグの背景色 */
+  border-radius: 5px; /* タグの角を丸める */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d35871; /* メインカラー */
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 各セクションの背景色を交互に設定 */
+section {
+  padding: 20px; /* セクションの上下にパディングを追加 */
+}
+
+section:nth-of-type(odd) {
+  background-color: #fcfaf5; /* 1つ目、3つ目...のセクションの背景色 */
+}
+
+section:nth-of-type(even) {
+  background-color: #f7f7f7; /* 2つ目、4つ目...のセクションの背景色 */
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none; /* デフォルトでは非表示 */
+  }
+
+  .hamburger {
+    display: block; /* ハンバーガーメニューを表示 */
+  }
+
+  .product-card,
+  .item-card {
+    min-width: 150px; /* スマホ用に最小幅を調整 */
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em; /* ヘッダーのフォントサイズを調整 */
+  }
+}

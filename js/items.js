@@ -1,0 +1,38 @@
+export const items = [
+  {
+    id: 1,
+    name: "アイテム1",
+    price: 1000,
+    description: "説明1",
+    image: "images/item1.jpg",
+    tags: ["#ハガキ", "#環境保護"],
+    isNew: true,
+  },
+  {
+    id: 2,
+    name: "アイテム2",
+    price: 1500,
+    description: "説明2",
+    image: "images/item2.jpg",
+    tags: ["#ハガキ", "#動物愛護"],
+    isNew: false,
+  },
+  {
+    id: 3,
+    name: "商品1",
+    price: 2000,
+    description: "説明3",
+    image: "images/item3.jpg",
+    tags: ["#カレンダー", "#教育支援"],
+    isNew: false,
+  },
+  {
+    id: 4,
+    name: "商品2",
+    price: 2500,
+    description: "説明4",
+    image: "images/item4.jpg",
+    tags: ["#カレンダー", "#環境保護"],
+    isNew: false,
+  },
+];
