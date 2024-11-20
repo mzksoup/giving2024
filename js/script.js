@@ -52,6 +52,7 @@ function searchItems() {
 
   const productContainer = document.getElementById("product-container");
   const searchResultsContainer = document.getElementById("search-results");
+  searchResultsContainer.className = "product-list"; // この行を追加
 
   // 商品一覧をクリア
   productContainer.innerHTML = ""; // 既存の内容をクリア
