@@ -10,10 +10,15 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
 }
 
 header {
-  background-color: #d35871; /* メインカラー */
+  background-color: #c7524b; /* メインカラー */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -87,7 +92,7 @@ nav a {
 }
 
 .cta-button {
-  background-color: #d35871; /* ボタンの背景色 */
+  background-color: #c7524b; /* ボタンの背景色 */
   color: white; /* ボタンの文字色 */
   padding: 10px 20px; /* パディング */
   border: none; /* ボーダーをなし */
@@ -98,7 +103,7 @@ nav a {
 }
 
 .cta-button:hover {
-  background-color: #b24d61; /* ホバー時の背景色 */
+  background-color: #e3a8a5; /* ホバー時の背景色 */
 }
 
 .new-items h2,
@@ -180,7 +185,7 @@ nav a {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #d35871; /* メインカラー */
+  background-color: #c7524b; /* メインカラー */
   color: white;
   position: relative;
   bottom: 0;
@@ -193,7 +198,7 @@ section {
 }
 
 section:nth-of-type(odd) {
-  background-color: #fcfaf5; /* 1つ目、3つ目...のセクションの背景色 */
+  background-color: #f9f8f4; /* 1つ目、3つ目...のセクションの背景色 */
 }
 
 section:nth-of-type(even) {

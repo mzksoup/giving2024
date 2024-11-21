@@ -13,7 +13,7 @@ a {
 }
 
 header {
-  background-color: #d35871; /* メインカラー */
+  background-color: #c7524b; /* メインカラー */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -74,7 +74,7 @@ nav a {
 
 .price {
   font-size: 1.5em; /* 価格のフォントサイズ */
-  color: #d35871; /* 価格の色 */
+  color: #c7524b; /* 価格の色 */
 }
 
 .description {
@@ -94,7 +94,7 @@ nav a {
 }
 
 .cta-button {
-  background-color: #d35871; /* ボタンの背景色 */
+  background-color: #c7524b; /* ボタンの背景色 */
   color: white; /* ボタンの文字色 */
   padding: 10px 20px; /* パディング */
   border: none; /* ボーダーをなし */
@@ -103,13 +103,13 @@ nav a {
 }
 
 .cta-button:hover {
-  background-color: #b24d61; /* ホバー時の背景色 */
+  background-color: #e3a8a5; /* ホバー時の背景色 */
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #d35871; /* メインカラー */
+  background-color: #c7524b; /* メインカラー */
   color: white;
   position: relative;
   bottom: 0;
