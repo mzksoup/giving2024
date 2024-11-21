@@ -8,6 +8,10 @@ body {
   color: #666666;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #d35871; /* メインカラー */
   color: white;
