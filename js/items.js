@@ -1,43 +1,47 @@
 export const items = [
   {
     id: 1,
-    name: "アイテム1",
-    price: 1000,
+    name: "【チャリティーカレンダー】季節の富士山（2025年1月始まりカレンダー）",
+    price: 1650,
     description: "説明1",
-    image: "images/item1.jpg",
+    image: "https://shop.r10s.jp/book/cabinet/6508/4900459556508_1_3.jpg",
     tags: ["#タグ1", "#タグ2"],
     isNew: true,
-    purchaseUrl: "https://example.com/item1", // 販売ページのURL
+    purchaseUrl: "https://a.r10.to/hPzRBx", // 販売ページのURL
   },
   {
     id: 2,
-    name: "アイテム2",
-    price: 1500,
+    name: "【チャリティーカレンダー】卓上 くつろぎねこ（2025年1月始まりカレンダー）",
+    price: 1210,
     description: "説明2",
-    image: "images/item2.jpg",
+    image: "https://shop.r10s.jp/book/cabinet/6478/4900459556478_1_3.jpg",
     tags: ["#ハガキ", "#動物愛護"],
     isNew: false,
-    purchaseUrl: "https://example.com/item2", // 販売ページのURL
+    purchaseUrl: "https://a.r10.to/hk0jHB", // 販売ページのURL
   },
   {
     id: 3,
-    name: "商品1",
-    price: 2000,
-    description: "説明3",
-    image: "images/item3.jpg",
+    name: "チャリティカレンダー2025「いま、何時？」",
+    price: 1200,
+    description:
+      "移住連が、日本に暮らす移民・難民、移民ルーツをもつ人びとの姿を伝え、エンパワメントすることを目的として、毎年発行しているカレンダー",
+    image:
+      "https://baseec-img-mng.akamaized.net/images/item/origin/ae850c5cabb11b6570b9d63b334f5140.png",
     tags: ["#カレンダー", "#教育支援"],
     isNew: false,
-    purchaseUrl: "https://example.com/item3", // 販売ページのURL
+    purchaseUrl: "https://migrants.jp/news/office/20240924_calendar.html", // 販売ページのURL
   },
   {
     id: 4,
-    name: "商品2",
-    price: 2500,
+    name: "2025ラジオ大阪「もう、好きにやります。」カレンダー",
+    price: 1200,
     description: "説明4",
-    image: "images/item4.jpg",
+    image:
+      "https://item-shopping.c.yimg.jp/i/n/radioosaka_cal2025-001_i_20241030155423",
     tags: ["#カレンダー", "#環境保護"],
     isNew: false,
-    purchaseUrl: "https://example.com/item4", // 販売ページのURL
+    purchaseUrl:
+      "https://store.shopping.yahoo.co.jp/radioosaka/cal2025-001.html", // 販売ページのURL
   },
 ];
 
