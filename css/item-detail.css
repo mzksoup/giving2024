@@ -115,3 +115,19 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* スマホサイズ対応 */
+@media (max-width: 768px) {
+  .item-detail {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .item-image {
+    min-width: 100%;
+  }
+
+  .item-info {
+    min-width: 100%;
+  }
+}

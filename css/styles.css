@@ -176,7 +176,7 @@ nav a {
 .item-card .tags span,
 .product-card .tags span {
   display: inline-block;
-  margin: 0 5px; /* タグ間のマージン */
+  margin: 5px 5px; /* タグ間のマージン */
   padding: 5px 10px;
   background-color: #f0f0f0; /* タグの背景色 */
   border-radius: 5px; /* タグの角を丸める */
